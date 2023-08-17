@@ -32,6 +32,7 @@ export const Products: FunctionComponent = () => {
 
     async function fetchData(url: string) {
         try {
+            console.log("fetching...")
             const response = await fetch(url)
             if (response.ok) {
                 const data = await response.json()
