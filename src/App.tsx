@@ -12,11 +12,11 @@ function App() {
       <main>
         <Routes>
           <Route
-            path="/"
+            path="/shopping-cart-app"
             element={<Products />}
           />
           <Route
-            path="/cart"
+            path="/shopping-cart-app/cart"
             element={<Cart />}
           />
         </Routes>
